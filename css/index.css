@@ -1,0 +1,8 @@
+div.to_another_link {
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    background-color: #ffb300;
+
+}
+
