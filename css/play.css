@@ -1,3 +1,118 @@
-h1{
-    color:red;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --color-bg:      #f5f7fa;
+  --color-white:   #ffffff;
+  --color-primary: #0066ff;
+  --color-text:    #333333;
+  --color-muted:   #777777;
+  --radius:        8px;
+  --shadow:        0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: var(--color-primary);
+}
+
+body > a {
+  display: inline-block;
+  margin-right: 12px;
+  margin-bottom: 16px;
+  padding: 8px 16px;
+  background-color: var(--color-white);
+  color: var(--color-primary);
+  font-weight: 500;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+body > a:hover {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  transform: translateY(-2px);
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 32px 0 16px;
+  text-align: center;
+  color: var(--color-text);
+}
+
+p {
+  margin-bottom: 16px;
+  color: var(--color-muted);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 24px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  object-fit: cover;
+}
+
+ol {
+  padding-left: 20px;
+  margin-bottom: 24px;
+}
+
+ol li {
+  margin-bottom: 8px;
+  position: relative;
+  padding-left: 8px;
+  color: var(--color-text);
+}
+
+ol li::marker {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+  body > a {
+    margin-right: 8px;
+    padding: 6px 12px;
+    font-size: 0.9rem;
+  }
+}
+img{width: 300px;
+height: 300px;
 }
