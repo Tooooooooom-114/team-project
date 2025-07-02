@@ -2,8 +2,12 @@ div.to_another_link {
     display:flex;
     flex-direction: row-reverse;
     justify-content: space-around;
-    background-color: #ffb300;
-
+    background-color: #ffd780;
+    margin : 20px 10px 20px 10px;
+    padding : 20px 220px 20px 220px;
+    border :double 6px rgb(95, 90, 243);
 }
 
-
+.index_link{
+    font-size:22px;
+}
