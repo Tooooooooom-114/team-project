@@ -11,3 +11,24 @@ div.to_another_link {
 .index_link{
     font-size:22px;
 }
+
+p#introduction_text{
+    font-size: 25px;
+}
+
+.nomal_text{
+    font-size: 25px;
+}
+
+.subtitle_size{
+    font-size: 40px;
+}
+
+#title_text{
+    font-size: 50px;
+}
+
+#link_text{
+    font-size: 30px;
+    margin : 5px 50px 5px 50px;
+}
