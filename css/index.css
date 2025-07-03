@@ -33,3 +33,23 @@ p#introduction_text{
     text-align: center;
     margin : 5px 50px 5px 50px;
 }
+
+body{
+    background-color: #f2f9cc;
+}
+
+.dounyu{
+    background-color: #f0f182;
+}
+
+.gurume{
+    background-color: #f8dfaa;
+}
+
+.sightseeing{
+    background-color: #9df4ab;
+}
+
+.play{
+    background-color: #80e6f4;
+}
