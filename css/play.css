@@ -4,8 +4,9 @@
   --color-bg:      #f5f7fa;
   --color-white:   #ffffff;
   --color-primary: #8195b4;
-  --color-text:    #de3b3b;
-  --color-muted:   #777777;
+  --color-text:    #060101;
+  --color-primary: #8195b4;
+  --color-muted:   #8195b4;
   --radius:        8px;
   --shadow:        0 4px 12px rgba(0, 0, 0, 0.05);
 }
