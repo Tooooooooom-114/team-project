@@ -16,15 +16,19 @@
   margin:0;
   padding:0;
 }
-img{
+img.invite{
      width: 450px;
     height: 300px;
 }
 
+ol{
+  
+}
+
 li{
   font-size: 50px;
-  background-color: aqua;
-
+  background-color: rgb(249, 174, 124);
+  border-color: orange;
 }
 
 .td-button {
@@ -55,5 +59,28 @@ p{
 
 #seiti{
   color: red;
-  text-underline-offset: red;
+}
+
+body{
+  background-color: #fefefe;
+}
+
+.flex {
+  display: flex; /*横並び*/
+}
+.flex .image {
+  width: 1000px; /*画像サイズ指定*/
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+.flex .text {
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+
+img{
+  width: 350;
+  height: 200;
 }
