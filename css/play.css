@@ -4,7 +4,7 @@
   --color-bg:      #f5f7fa;
   --color-white:   #ffffff;
   --color-primary: #8195b4;
-  --color-text:    #d19b9b;
+  --color-text:    #2551b9;
   --color-primary: #8195b4;
   --color-muted:   #8195b4;
   --radius:        8px;
@@ -120,7 +120,7 @@ height: 300px;
 
 
 body{
-  background-color: #fefefe;
+  background-color: #daefff;
 }
 
 :root {
@@ -170,7 +170,7 @@ body > a {
   display: inline-block;
   margin: 0 12px 16px 0;
   padding: 8px 16px;
-  background: linear-gradient(145deg, #bbbedc56, #e6e35d);
+  background: linear-gradient(145deg, #fbfcfd, hsl(192, 100%, 70%));
   border: 1px solid rgba(229, 244, 255, 0.15);
   color: var(--accent-color);
   font-weight: 500;
