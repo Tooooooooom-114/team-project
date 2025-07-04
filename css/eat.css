@@ -7,3 +7,33 @@ div.to_another_link {
     padding : 20px 220px 20px 220px;
     border :double 6px rgb(95, 90, 243);
 }
+
+.index_link{
+    font-size:22px;
+}
+
+body{
+    background-color: #fefefe;
+}
+
+.setumei_text{
+    font-size: 25px;
+}
+
+#link_text{
+    font-size: 30px;
+    text-align: center;
+    margin : 5px 50px 5px 50px;
+}
+
+#title_text{
+    font-size: 40px;
+}
+
+#asakusa_index{
+    font-size: 35px;
+}
+
+.image_text{
+    font-size: 20px;
+}
