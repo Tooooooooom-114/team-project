@@ -16,7 +16,7 @@
   margin:0;
   padding:0;
 }
-img{
+img.invite{
      width: 450px;
     height: 300px;
 }
@@ -69,7 +69,7 @@ body{
   display: flex; /*横並び*/
 }
 .flex .image {
-  width: 640px; /*画像サイズ指定*/
+  width: 1000px; /*画像サイズ指定*/
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -78,4 +78,9 @@ body{
 .flex .text {
   margin: 0 0 0 20px;
   padding: 0;
+}
+
+img{
+  width: 750;
+  height: 600;
 }
